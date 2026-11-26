@@ -1,0 +1,8 @@
+{
+  "name": "pr-craft",
+  "version": "0.1.0",
+  "description": "Blocks gh pr create and gh pr edit when the PR body has AI tells, test-plan sections, broken Mermaid or too much prose, and adds a /pr-craft writing guide",
+  "author": { "name": "Victor Arias" },
+  "license": "MIT",
+  "keywords": ["pull-request", "github", "writing", "hooks"]
+}

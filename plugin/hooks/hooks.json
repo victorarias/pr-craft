@@ -1,0 +1,17 @@
+{
+  "description": "Lint PR bodies passed to gh pr create and gh pr edit",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -I \"${CLAUDE_PLUGIN_ROOT}/scripts/pr_body_lint.py\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

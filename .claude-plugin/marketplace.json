@@ -1,0 +1,14 @@
+{
+  "name": "pr-craft",
+  "owner": {
+    "name": "Victor Arias"
+  },
+  "description": "pr-craft: a Claude Code plugin that gates PR bodies and guides reviewer-first PR descriptions",
+  "plugins": [
+    {
+      "name": "pr-craft",
+      "source": "./plugin",
+      "description": "Gate PR bodies at gh pr create/edit and guide reviewer-first PR descriptions"
+    }
+  ]
+}
